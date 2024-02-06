@@ -2,10 +2,6 @@ import { netlifyEdgeAdapter } from "@builder.io/qwik-city/adapters/netlify-edge/
 import { extendConfig } from "@builder.io/qwik-city/vite";
 import baseConfig from "../../vite.config";
 
-// import { nodeResolve } from '@rollup/plugin-node-resolve';
-// import builtins from 'rollup-plugin-node-builtins';
-
-// const builtinsPlugin = { ...builtins({ crypto: true }), name: 'rollup-plugin-node-builtins' };
 
 export default extendConfig(baseConfig, () => {
   return {
